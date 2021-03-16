@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Get Your Food</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center">Bấm để nhận món ăn</h1>
+      <div class="arrow-div">
+        <img
+          src="images/arrow.svg"
+          alt="Arrow"
+          style="width: 5rem"
+          class="arrow img-fluid"
+        />
+      </div>
+      <button
+        id="btnSubmit"
+        style="margin-top: 25px; width: fit-content"
+        class="btn btn-primary"
+      >
+        Click
+      </button>
+      <div class="yourfood">
+        <h2 id="Food"></h2>
+        <a class="btn btn-danger" id="FoodLink" href="" target="_blank"
+          >Nhấn vào đây để đi tới Foody</a
+        >
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
