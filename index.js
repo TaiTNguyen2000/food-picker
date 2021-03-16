@@ -32,7 +32,9 @@ btn.addEventListener('click', () => {
   console.log('a');
   div.style.display = 'block';
   let randomFood = foodArr[Math.floor(Math.random() * foodArr.length)];
-  let url = 'https://www.foody.vn/ho-chi-minh/dia-diem?q=' + randomFood;
+  let url =
+    'https://www.now.vn/ho-chi-minh/danh-sach-dia-diem-giao-tan-noi?q=' +
+    randomFood;
   h2.innerText = h2Text + randomFood;
   a.href = url;
 });
